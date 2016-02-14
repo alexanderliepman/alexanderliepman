@@ -3,15 +3,15 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: ajliepman.pw
-title: Alexander J. Liepman
-email: alexanderliepman@gmail.com
-author: Alexander J. Liepman
+url: budgetsurvivalgear.com
+title: budgetsurvivalgear.com
+email: budgetsurvivalgearstore@gmail.com
+author: BSG
 description: > # "Write an awesome description for your new site here.
   You can edit this line in _config.yml. It will appear in your document
   head meta (for Google search results) and in your feed.xml site
   description.
-copyright: 'Copyright &copy; 2016 Alexander J. Liepman. All Rights Reserved.'
+copyright: 'Copyright &copy; 2016 BudgetSurvivalGear.com All Rights Reserved.'
 credits: ''
 
 # ----------------------- #
@@ -27,11 +27,11 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
+  - title:
     url: https://twitter.com/ajliepman
-  - title: instagram
+  - title:
     url: https://instagram.com/a.jl
-  - title: linkedin
+  - title:
     url: https://linkedin.com/in/ajliepman
 =======
 # Welcome to Jekyll!
