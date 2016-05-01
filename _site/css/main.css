@@ -56,7 +56,29 @@ html {
       background-size: cover;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      flex-direction: column; }
       html body header h1 {
         margin: 0;
         color: #fdfdfd; }
+      html body header section a {
+        border-bottom: none; }
+      html body header section .share-link {
+        transition: all 0.25s ease-in-out;
+        margin-right: 1rem; }
+        html body header section .share-link:last-child {
+          margin-right: 0; }
+        html body header section .share-link:hover {
+          transform: scale(1.2);
+          transition: all 0.25s ease-in-out; }
+          html body header section .share-link:hover .icon--ei-sc-twitter {
+            fill: #55acee !important;
+            transition: all 0.25s ease-in-out; }
+          html body header section .share-link:hover .icon--ei-sc-linkedin {
+            fill: #55acee !important;
+            transition: all 0.25s ease-in-out; }
+          html body header section .share-link:hover .icon--ei-envelope {
+            fill: #55acee !important;
+            transition: all 0.25s ease-in-out; }
+      html body header section .social-icon {
+        fill: #fdfdfd !important; }
