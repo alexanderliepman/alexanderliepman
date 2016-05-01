@@ -3,7 +3,8 @@ h1, h2, h3, h4, h5, p, a {
 
 h1 {
   font-size: 5.08328rem;
-  font-weight: 800; }
+  font-weight: 800;
+  font-family: "PT Serif", serif !important; }
 
 h2 {
   font-size: 3.14164rem;
@@ -17,13 +18,13 @@ h1, h2, h3 {
   font-family: "Open Sans"; }
 
 p {
-  font-family: "Merriweather";
+  font-family: "Open Sans";
   font-weight: 300;
   font-size: 1.62rem;
   line-height: 1.5; }
 
 h4 {
-  font-family: "Merriweather";
+  font-family: "Open Sans";
   font-weight: 300;
   font-size: 1.55331rem;
   line-height: 2; }
@@ -107,27 +108,35 @@ html {
           border-bottom: 2px solid #fdfdfd; }
       html body nav .menu {
         position: fixed;
-        width: 200px;
+        width: 100%;
         padding-top: 4rem;
-        left: -200px;
+        left: -100%;
         top: 0;
         bottom: 0;
-        background-color: #424242; }
+        background-color: rgba(66, 66, 66, 0.98);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease-in; }
         html body nav .menu h4 {
-          font-weight: 300; }
+          font-weight: 300;
+          font-size: 3.14164rem; }
           html body nav .menu h4 ul {
             list-style: none;
             padding: 0; }
             html body nav .menu h4 ul li {
-              display: inline;
               margin: 0; }
               html body nav .menu h4 ul li a:hover {
                 border-bottom: 2px solid #fdfdfd; }
+      html body nav .page-menu {
+        width: 40%;
+        left: -40%; }
 
 #sidebartoggler {
   display: none; }
   #sidebartoggler:checked + nav .menu {
-    left: 0; }
+    left: 0;
+    transition: all 0.3s ease-in; }
 
 .content-wrapper {
   display: flex;
@@ -135,9 +144,9 @@ html {
   height: 100%;
   width: 100%; }
   .content-wrapper .header-side {
-    width: 45%; }
+    min-width: 40%; }
   .content-wrapper .content {
-    max-width: 55%;
+    max-width: 60%;
     padding: 0 5rem; }
     .content-wrapper .content a {
       color: #444444;
