@@ -19,7 +19,8 @@ h1, h2, h3 {
 p {
   font-family: "Merriweather";
   font-weight: 300;
-  font-size: 1.2rem; }
+  font-size: 1.62rem;
+  line-height: 1.5; }
 
 h4 {
   font-family: "Merriweather";
@@ -127,3 +128,14 @@ html {
   display: none; }
   #sidebartoggler:checked + nav .menu {
     left: 0; }
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%; }
+  .content-wrapper .header-side {
+    width: 40%; }
+  .content-wrapper .content {
+    max-width: 60%;
+    padding: 0 5rem; }
