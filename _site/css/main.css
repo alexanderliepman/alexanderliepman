@@ -82,3 +82,15 @@ html {
             transition: all 0.25s ease-in-out; }
       html body header section .social-icon {
         fill: #fdfdfd !important; }
+    html body nav {
+      position: fixed;
+      top: 0;
+      left: 0; }
+      html body nav h3 {
+        padding: 1rem;
+        margin: 0; }
+        html body nav h3 a {
+          color: #fdfdfd; }
+          html body nav h3 a:hover {
+            color: #fdfdfd;
+            border-bottom: 2px solid #fdfdfd; }
