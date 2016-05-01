@@ -21,14 +21,14 @@ layout: default
 <input type="checkbox" id="sidebartoggler" name="" value="">
 
 <nav>
-  <label for="sidebartoggler">Menu</a>
+  <label for="sidebartoggler">Menu</label>
 
   <div class="menu">
     <h4>
       <ul>
         {% for page in site.pages %}
           <li>
-            {{ page.title }}
+            <a href="{{ page.url }}">{{ page.title }}</a>
           </li>
         {% endfor %}
       </ul>

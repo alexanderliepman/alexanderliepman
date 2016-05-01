@@ -50,21 +50,44 @@ html
       position: fixed
       top: 0
       left: 0
+      width: 200px
+      display: flex
+      justify-content: center
+      align-items: center
+      text-align: center
       label
+        z-index: 1000
         color: $background-color
         font-family: $title-font-family
         font-size: ms(1)
-        font-weight: 300
+        font-weight: 400
         position: fixed
-        margin: 1.5rem
+        transform: translate(-50%, 0)
         margin-top: 1rem
+        cursor: pointer
         &:hover
           color: $background-color
           border-bottom: 2px solid $background-color
       .menu
         position: fixed
-        width: 150px
-        left: -150px
+        width: 200px
+        padding-top: 4rem
+        left: -200px
+        top: 0
+        bottom: 0
+        background-color: $grey-color-dark
+        h4
+          font-weight: 300
+          ul
+            list-style: none
+            padding: 0
+            li
+              display: inline
+              margin: 0
+              a
+                &:hover
+                  border-bottom: 2px solid $background-color
+
 
 #sidebartoggler
   display: none

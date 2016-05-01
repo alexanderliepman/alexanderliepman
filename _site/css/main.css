@@ -35,9 +35,9 @@ h5 {
   margin: 2.5rem 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fdfdfd; }
   a:hover {
-    color: #111111;
     transition: all 0.1s ease-in-out; }
 
 /**
@@ -85,22 +85,43 @@ html {
     html body nav {
       position: fixed;
       top: 0;
-      left: 0; }
+      left: 0;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
       html body nav label {
+        z-index: 1000;
         color: #fdfdfd;
         font-family: "Open Sans";
         font-size: 1.94164rem;
-        font-weight: 300;
+        font-weight: 400;
         position: fixed;
-        margin: 1.5rem;
-        margin-top: 1rem; }
+        transform: translate(-50%, 0);
+        margin-top: 1rem;
+        cursor: pointer; }
         html body nav label:hover {
           color: #fdfdfd;
           border-bottom: 2px solid #fdfdfd; }
       html body nav .menu {
         position: fixed;
-        width: 150px;
-        left: -150px; }
+        width: 200px;
+        padding-top: 4rem;
+        left: -200px;
+        top: 0;
+        bottom: 0;
+        background-color: #424242; }
+        html body nav .menu h4 {
+          font-weight: 300; }
+          html body nav .menu h4 ul {
+            list-style: none;
+            padding: 0; }
+            html body nav .menu h4 ul li {
+              display: inline;
+              margin: 0; }
+              html body nav .menu h4 ul li a:hover {
+                border-bottom: 2px solid #fdfdfd; }
 
 #sidebartoggler {
   display: none; }
