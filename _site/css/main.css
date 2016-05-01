@@ -86,11 +86,23 @@ html {
       position: fixed;
       top: 0;
       left: 0; }
-      html body nav h3 {
-        padding: 1rem;
-        margin: 0; }
-        html body nav h3 a {
-          color: #fdfdfd; }
-          html body nav h3 a:hover {
-            color: #fdfdfd;
-            border-bottom: 2px solid #fdfdfd; }
+      html body nav label {
+        color: #fdfdfd;
+        font-family: "Open Sans";
+        font-size: 1.94164rem;
+        font-weight: 300;
+        position: fixed;
+        margin: 1.5rem;
+        margin-top: 1rem; }
+        html body nav label:hover {
+          color: #fdfdfd;
+          border-bottom: 2px solid #fdfdfd; }
+      html body nav .menu {
+        position: fixed;
+        width: 150px;
+        left: -150px; }
+
+#sidebartoggler {
+  display: none; }
+  #sidebartoggler:checked + nav .menu {
+    left: 0; }

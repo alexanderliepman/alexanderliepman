@@ -18,6 +18,20 @@ layout: default
 </section>
 </header>
 
+<input type="checkbox" id="sidebartoggler" name="" value="">
+
 <nav>
-<h3><a href="#">Menu</a></h3>
+  <label for="sidebartoggler">Menu</a>
+
+  <div class="menu">
+    <h4>
+      <ul>
+        {% for page in site.pages %}
+          <li>
+            {{ page.title }}
+          </li>
+        {% endfor %}
+      </ul>
+    </h4>
+  </div>
 </nav>

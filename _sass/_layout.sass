@@ -50,11 +50,25 @@ html
       position: fixed
       top: 0
       left: 0
-      h3
-        padding: 1rem
-        margin: 0
-        a
+      label
+        color: $background-color
+        font-family: $title-font-family
+        font-size: ms(1)
+        font-weight: 300
+        position: fixed
+        margin: 1.5rem
+        margin-top: 1rem
+        &:hover
           color: $background-color
-          &:hover
-            color: $background-color
-            border-bottom: 2px solid $background-color
+          border-bottom: 2px solid $background-color
+      .menu
+        position: fixed
+        width: 150px
+        left: -150px
+
+#sidebartoggler
+  display: none
+
+  &:checked + nav
+    .menu
+      left: 0
