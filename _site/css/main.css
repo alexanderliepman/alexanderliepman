@@ -1,0 +1,62 @@
+h1, h2, h3, h4, h5, p, a {
+  color: #444444; }
+
+h1 {
+  font-size: 5.08328rem;
+  font-weight: 800; }
+
+h2 {
+  font-size: 3.14164rem;
+  font-weight: 800; }
+
+h3 {
+  font-size: 1.94164rem;
+  font-weight: 300; }
+
+h1, h2, h3 {
+  font-family: "Open Sans"; }
+
+p {
+  font-family: "Merriweather";
+  font-weight: 300;
+  font-size: 1.2rem; }
+
+h4 {
+  font-family: "Merriweather";
+  font-weight: 300;
+  font-size: 1.55331rem;
+  line-height: 2; }
+
+h5 {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #828282;
+  margin: 2.5rem 0; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    color: #111111;
+    transition: all 0.1s ease-in-out; }
+
+/**
+ * Clearfix */
+html {
+  width: 100vw;
+  height: 100vh; }
+  html body {
+    width: 100%;
+    height: 100%;
+    margin: 0; }
+    html body header {
+      height: 100%;
+      text-align: center;
+      background: url(http://alexanderjliepman.github.io/img/intro-bg.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html body header h1 {
+        margin: 0;
+        color: #fdfdfd; }
