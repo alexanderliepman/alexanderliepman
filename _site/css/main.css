@@ -139,3 +139,9 @@ html {
   .content-wrapper .content {
     max-width: 55%;
     padding: 0 5rem; }
+    .content-wrapper .content a {
+      color: #444444;
+      border-bottom: 2px solid; }
+      .content-wrapper .content a:hover {
+        color: black;
+        border-bottom: 2px solid; }
