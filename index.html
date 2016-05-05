@@ -4,18 +4,23 @@ layout: default
 
 <header>
   <h1>{{ site.title }}</h1>
-
-<section>
-  <a class="share-link twitter-link" href="https://twitter.com/ajliepman">
-    <div class="social-icon" data-icon="ei-sc-twitter" data-size="l"></div>
-  </a>
-  <a class="share-link linkedin-link" href="https://linkedin.com/in/ajl">
-    <div class="social-icon" data-icon="ei-sc-linkedin" data-size="l"></div>
-  </a>
-  <a class="share-link email-link" href="mailto:@gmail.com">
-    <div class="social-icon" data-icon="ei-envelope" data-size="l"></div>
-  </a>
-</section>
 </header>
 
-{% include menu.html %}
+<ul class="products-list">
+    {% for product in site.data.products %}
+      <li>
+        <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
+
+        {{ product.name }}
+
+        <button class="snipcart-add-item"
+          data-item-name="{{product.name}}"
+          data-item-id="{{product.sku}}"
+          data-item-image="{{product.image}}"
+          data-item-url="{{site.baseurl}}"
+          data-item-price="{{product.price}}">
+          Buy it for {{product.price}} $
+        </button>
+      </li>
+    {% endfor %}
+  </ul>
