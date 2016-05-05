@@ -3,17 +3,11 @@ layout: default
 title: Books
 ---
 
-<header>
-  <h1>{{ site.title }}</h1>
-</header>
+<div class="home">
 
-<a href="#" class="snipcart-checkout">Click here to checkout</a>
-<div class="snipcart-summary">
-    Number of items: <span class="snipcart-total-items"></span>
-    Total price: <span class="snipcart-total-price"></span>
-</div>
+  <h1 class="page-heading">Books</h1>
 
-<ul class="products-list">
+  <ul class="products-list">
     {% for product in site.data.products %}
       <li>
         <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
@@ -31,3 +25,5 @@ title: Books
       </li>
     {% endfor %}
   </ul>
+
+</div>
