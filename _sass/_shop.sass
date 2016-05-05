@@ -1,0 +1,52 @@
+.content-wrapper
+
+  .post-header
+    display: flex
+    justify-content: center
+
+    .post-title
+
+  .shop-navigation
+    width: 250px
+    height: 100vh
+    top: 0
+    bottom: 0
+    position: fixed
+    background:
+      image: url(../img/bg.jpg)
+    display: flex
+    flex-direction: column
+    padding: 5rem 1.5rem
+    h3
+      color: $title-color
+    ul
+      list-style: none
+      padding: 0
+      li
+        margin-bottom: 1rem
+        font:
+          family: $title-font-family
+          size: ms(0)
+        a
+          color: $title-color
+
+
+  .shop
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    margin-bottom: 2rem
+    margin-left: 20%
+
+    .shop-item
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+
+      img
+        height: 80%
+        width: 80%
+
+      .snipcart-add-item
+        height: 2rem
