@@ -6,6 +6,7 @@
 // Our variables
 $base-font-family: "Merriweather"
 $title-font-family: "Open Sans"
+$logo-font-family: "Londrina Sketch"
 $base-font-size: 16px
 $base-font-weight: 400
 $small-font-size: $base-font-size * 0.875
@@ -36,7 +37,7 @@ $on-laptop: 800px
 //     }
 // }
 =media-query($device)
-  @media screen and (min-width: $device)
+  @media screen and (max-width: $device)
     @content
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -45,6 +46,5 @@ $on-laptop: 800px
 @import base
 @import layout
 @import menu
-@import shop-mobile
+@import menu-mobile
 @import shop
-@import shop-menu

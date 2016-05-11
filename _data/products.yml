@@ -7,6 +7,15 @@
   category: Firemaking
   categoryurl: /shop/firemaking
 
+- name: Lighter
+  price: 29.99
+  slug: lighter
+  sku: L
+  image: http://d.gr-assets.com/books/1333576876l/10127019.jpg
+  url: http://budgetsurvivalgear.com/shop/
+  category: Firemaking
+  categoryurl: /shop/firemaking
+
 - name: Canned ravioli
   price: 20.99
   slug: canned-ravioli

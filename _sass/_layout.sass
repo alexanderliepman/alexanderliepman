@@ -4,71 +4,24 @@
 html
   width: 100vw
   height: 100vh
+  overflow-x: hidden
 
   body
     height: 100%
     width: 100%
     margin: 0
+    overflow-x: hidden
 
-    header.hero
-      height: 100vh
+    .hero
+      height: 100%
+      width: 100%
+
       background:
-        image: url(../img/bg.jpg)
-      display: flex
-      flex-direction: column
-      justify-content: center
-      align-items: center
+        color: $grey-color-dark
 
-      h2
-        color: $title-color
+    .content-wrapper
+      margin-left: 50%
+      transform: translate(-50%, 0)
 
-      .click
-        bottom: 0px
-        position: absolute
-        margin-left: 50%
-        transform: translate(-50%, 0)
-        h5
-          a
-            color: $title-color
-
-    main
-      height: 100vh
-
-      .full-menu
-        display: flex
-        flex-direction: row
-        justify-content: space-around
-
-        .list-menu
-          display: inline-flex
-          list-style: none
-          font:
-            family: $title-font-family
-            size: ms(1)
-            weight: 300
-
-          li
-            margin-right: 10vw
-            &:last-child
-              margin-right: 0
-          .list-shop
-            .dropdown
-              position: absolute
-              transform: translate(-15%, 0)
-              display: none
-
-              list-style: none
-              padding: 0.25rem 1rem
-              background-color: $grey-color-light
-
-              font:
-                size: ms(0)
-              line-height: 1.7
-              .dropdown-item
-                margin-right: 0
-                margin: 0.5rem 0
-                &:hover
-                  border-bottom: 1.5px solid $text-color
-            &:hover
-              ul
-                display: block
+.snip-layout
+  top: 110px !important
