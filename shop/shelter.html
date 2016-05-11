@@ -1,11 +1,12 @@
 ---
 layout: shop
-title: Shop
-permalink: /shop/
+title: Shelter
+permalink: /shop/shelter
 ---
 <section class="shop">
 
   {% for product in site.data.products %}
+    {% if product.category == "Shelter" %}
 
     <div class="shop-item">
 
@@ -25,6 +26,7 @@ permalink: /shop/
 
     </div>
 
+    {% endif %}
   {% endfor %}
 
 </section>

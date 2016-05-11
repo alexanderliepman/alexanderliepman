@@ -1,0 +1,17 @@
+<input type="checkbox" id="sidebartoggler-shop" name="" value="">
+
+<nav class="menu menu-shop">
+  <label for="sidebartoggler-shop">
+    <h3>Categories</h3>
+  </label>
+  <div class="sidebar sidebar-shop">
+    <span></span>
+    <div class="sidebar-container sidebar-container-shop">
+      <ul>
+        {% for product in site.data.products %}
+        <li><a href="{{site.url}}{{product.categoryurl}}">{{ product.category }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

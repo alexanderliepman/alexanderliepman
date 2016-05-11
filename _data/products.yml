@@ -1,26 +1,53 @@
-- name: The Lean Startup
+- name: Flint and steel
   price: 29.99
-  slug: the-lean-startup
-  sku: TLS
+  slug: flint-and-steel
+  sku: FAS
   image: http://d.gr-assets.com/books/1333576876l/10127019.jpg
   url: http://budgetsurvivalgear.com/shop/
-  category: Food
-  categoryurl: /shop/food
+  category: Firemaking
+  categoryurl: /shop/firemaking
 
-- name: How Google Works
+- name: Canned ravioli
   price: 20.99
-  slug: how-google-works
-  sku: HGW
+  slug: canned-ravioli
+  sku: CR
   image: http://d.gr-assets.com/books/1422538855l/23158207.jpg
   url: http://budgetsurvivalgear.com/shop/
-  category: Miscellaneous
-  categoryurl: /shop/miscellaneous
+  category: Food and preparation
+  categoryurl: /shop/food-and-preparation
 
-- name: Rework
+- name: Swiss knife
   price: 39.99
-  slug: rework
-  sku: SW
+  slug: swiss-knife
+  sku: SK
   image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
   url: http://budgetsurvivalgear.com/shop/
-  category: Tools
-  categoryurl: /shop/tools
+  category: Knives and tools
+  categoryurl: /shop/knives-and-tools
+
+- name: First aid kit
+  price: 39.99
+  slug: first-aid-kit
+  sku: FA
+  image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
+  url: http://budgetsurvivalgear.com/shop/
+  category: First aid
+  categoryurl: /shop/first-aid
+
+- name: Wax jacket
+  price: 39.99
+  slug: wax-jacket
+  sku: WJ
+  image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
+  url: http://budgetsurvivalgear.com/shop/
+  category: Clothing and gear
+  categoryurl: /shop/clothing-and-gear
+
+- name: Tent
+  price: 39.99
+  slug: tent
+  sku: SI
+  image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
+  url: http://budgetsurvivalgear.com/shop/
+  category: Shelter
+  categoryurl: /shop/shelter

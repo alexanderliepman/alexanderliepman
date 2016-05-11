@@ -2,11 +2,8 @@
 layout: default
 title: Budget Survival Gear
 ---
+{% include menu.html %}
 <header class="hero">
-
-  <nav class="menu">
-    <h3><a href="#">Menu</a></h3>
-  </nav>
 
   <object type="image/svg+xml" data="../img/bsg-logo-2.svg" width="35%" height="35%"> </object>
 
@@ -29,7 +26,15 @@ title: Budget Survival Gear
   <nav class="full-menu">
     <ul class="list-menu">
       <li><a href="{{ site.url }}">Home</a></li>
-      <li><a href="/shop">Shop</a></li>
+      <li class="list-shop">
+        <a href="/shop" class="link-shop">Shop</a>
+        <ul class="dropdown">
+          <li class="dropdown-item"><a href="#">Category</a></li>
+          <li class="dropdown-item"><a href="#">Category</a></li>
+          <li class="dropdown-item"><a href="#">Category</a></li>
+          <li class="dropdown-item"><a href="#">Category</a></li>
+        </ul>
+      </li>
       <li><a href="/blog">Blog</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/contact">Contact</a></li>

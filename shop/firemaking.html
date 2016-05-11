@@ -1,21 +1,12 @@
 ---
-layout: page
-title: Miscellaneous
-permalink: /shop/miscellaneous
+layout: shop
+title: Firemaking
+permalink: /shop/firemaking
 ---
-<aside class="shop-navigation">
-  <h3>Categories</h3>
-  <ul>
-    {% for product in site.data.products %}
-    <li><a href="{{site.url}}{{product.categoryurl}}">{{ product.category }}</a></li>
-    {% endfor %}
-  </ul>
-</aside>
-
 <section class="shop">
 
   {% for product in site.data.products %}
-    {% if product.category == "Miscellaneous" %}
+    {% if product.category == "Firemaking" %}
 
     <div class="shop-item">
 
