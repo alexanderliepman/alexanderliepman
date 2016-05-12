@@ -1,5 +1,11 @@
 ---
-layout: page
+layout: blog
 title: Blog
 permalink: /blog
 ---
+{% for post in site.posts %}
+<article class="blog-post">
+  <h3 class="post-title">{{ post.title }}</h3>
+  {{ post.excerpt }}
+</article>
+{% endfor %}
