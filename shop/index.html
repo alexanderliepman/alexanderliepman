@@ -7,23 +7,25 @@ permalink: /shop/
 
   {% for product in site.data.products %}
 
-    <div class="shop-item">
+    <a href="#" class="shop-item">
 
       <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
 
-      <h3>{{ product.name }}</h3>
-      <h5>${{ product.price }}</h5>
+      <div class="product-information">
+        <h3>{{ product.name }}</h3>
+        <h5>${{ product.price }}</h5>
+      </div>
 
-      <button class="snipcart-add-item"
+      <!-- <button class="snipcart-add-item"
         data-item-name="{{product.name}}"
         data-item-id="{{product.sku}}"
         data-item-image="{{product.image}}"
         data-item-url="{{product.url}}"
         data-item-price="{{product.price}}">
         Add to cart
-      </button>
+      </button> -->
 
-    </div>
+    </a>
 
   {% endfor %}
 

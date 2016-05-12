@@ -1,20 +1,54 @@
-@include media-query($on-palm)
-  .content-wrapper
-    top: 110px
-    position: absolute
+.content-wrapper
+  top: 110px
+  position: absolute
+  margin: auto
+  display: flex
+  flex-direction: column
+  align-items: center
 
-    .post-header
+  .post-header
 
-      .post-title
-        font-size: ms(3)
-        margin: 0
-        margin-bottom: 0.67rem
+    .post-title
+      font-size: ms(3)
+      margin: 0
+      margin-bottom: 0.67rem
 
 
-    .shop
+  .shop
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
 
-      .shop-item
+    .shop-item
+      display: block
+      margin: 1rem auto
 
-        img
+      &:hover
+        .product-information
+          visibility: visible
 
-        .snipcart-add-item
+        .thumbnail
+          opacity: 0.3
+
+      .thumbnail
+        opacity: 1.0
+
+      .product-information
+        visibility: hidden
+        position: absolute
+        height: 475px
+        width: 315px
+        transform: translate(0, -479px)
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+        h3
+          font-weight: 600
+          margin: 0
+
+        h5
+          margin: 0
+
+      .snipcart-add-item
