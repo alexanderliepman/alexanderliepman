@@ -1,0 +1,45 @@
+@include media-query($on-palm)
+  .product-page
+    flex-direction: column
+    width: 100%
+
+    .product-image
+      max-width: none
+
+    .product-information
+      margin: auto
+      max-width: 95%
+
+      .product-name-and-price
+
+        .product-name
+
+        .product-price
+
+      .product-purchase
+
+        .size-selection
+          flex-wrap: wrap
+          padding: 0.5rem 0
+          margin: 0
+          width: 100%
+          justify-content: space-between
+
+          li
+            margin: 0
+
+            .product-size
+              margin: 0
+
+              &:hover
+                background-color: $grey-color
+                color: $title-color
+
+            .active
+
+        .product-buy
+          width: 100%
+
+          &:hover
+
+      .product-description
