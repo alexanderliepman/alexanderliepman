@@ -3,7 +3,7 @@
   slug: flint-and-steel
   sku: FAS
   image: http://d.gr-assets.com/books/1333576876l/10127019.jpg
-  url: http://budgetsurvivalgear.com/shop/
+  url: /shop/firemaking/flint-and-steel
   category: Firemaking
   categoryurl: /shop/firemaking
 
@@ -12,7 +12,7 @@
   slug: lighter
   sku: L
   image: http://d.gr-assets.com/books/1333576876l/10127019.jpg
-  url: http://budgetsurvivalgear.com/shop/
+  url: /shop/firemaking/lighter
   category: Firemaking
   categoryurl: /shop/firemaking
 
@@ -21,7 +21,7 @@
   slug: canned-ravioli
   sku: CR
   image: http://d.gr-assets.com/books/1422538855l/23158207.jpg
-  url: http://budgetsurvivalgear.com/shop/
+  url: /shop/food-and-preparation/canned-ravioli
   category: Food and preparation
   categoryurl: /shop/food-and-preparation
 
@@ -30,7 +30,7 @@
   slug: swiss-knife
   sku: SK
   image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
-  url: http://budgetsurvivalgear.com/shop/
+  url: /shop/knives-and-tools/swiss-knife
   category: Knives and tools
   categoryurl: /shop/knives-and-tools
 
@@ -39,16 +39,23 @@
   slug: first-aid-kit
   sku: FA
   image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
-  url: http://budgetsurvivalgear.com/shop/
+  url: /shop/first-aid/first-aid-kit
   category: First aid
   categoryurl: /shop/first-aid
 
 - name: Wax jacket
-  price: 39.99
+  price: 139.99
   slug: wax-jacket
+  description: >
+    Crafted in tonal waxed and unwaxed cotton,
+    the Kitefin Slim Jacket is part of Barbour's
+    exclusive collaboration with Japanese brand
+    White Mountaineering. Standout features include
+    leather trims, a stowaway hood and an exclusive
+    fishing-inspired camo print lining.
   sku: WJ
-  image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
-  url: http://budgetsurvivalgear.com/shop/
+  image: http://localhost:4000/img/products/wax-jacket.jpg
+  url: /shop/clothing-and-gear/wax-jacket/
   category: Clothing and gear
   categoryurl: /shop/clothing-and-gear
 
@@ -56,7 +63,7 @@
   price: 39.99
   slug: tent
   sku: SI
-  image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
-  url: http://budgetsurvivalgear.com/shop/
+  image: ../img/products/tent.jpg
+  url: /shop/shelter/tent/
   category: Shelter
   categoryurl: /shop/shelter
