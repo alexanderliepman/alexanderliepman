@@ -35,10 +35,10 @@
   categoryurl: /shop/knives-and-tools
 
 - name: First aid kit
-  price: 39.99
+  price: 19.99
   slug: first-aid-kit
   sku: FA
-  image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
+  image: http://budgetsurvivalgear.com/img/products/first-aid-kit.jpg
   url: /shop/first-aid/first-aid-kit
   category: First aid
   categoryurl: /shop/first-aid
@@ -63,7 +63,7 @@
   price: 39.99
   slug: tent
   sku: SI
-  image: ../img/products/tent.jpg
+  image: http://budgetsurvivalgear.com/img/products/tent.jpg
   url: /shop/shelter/tent/
   category: Shelter
   categoryurl: /shop/shelter

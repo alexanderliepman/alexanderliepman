@@ -1,0 +1,25 @@
+---
+layout: shop
+title: First aid
+permalink: /shop/first-aid/
+---
+<section class="shop">
+
+  {% for product in site.data.products %}
+    {% if product.category == "First aid" %}
+
+    <a href="{{ product.url }}" class="shop-item">
+
+      <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
+
+      <div class="product-information">
+        <h3>{{ product.name }}</h3>
+        <h5>${{ product.price }}</h5>
+      </div>
+
+    </a>
+
+    {% endif %}
+  {% endfor %}
+
+</section>
