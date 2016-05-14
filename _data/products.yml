@@ -25,18 +25,35 @@
   category: Food and preparation
   categoryurl: /shop/food-and-preparation
 
-- name: Swiss knife
+- name: Swiss army knife
   price: 39.99
-  slug: swiss-knife
-  sku: SK
-  image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
-  url: /shop/knives-and-tools/swiss-knife
+  slug: swiss-army-knife
+  description: >
+    When you hear the words Swiss Army Knife, chances are you
+    think of the legendary Officer's knife. And that legend
+    continues with the Huntsman pocket knife. With the addition
+    of scissors and a wood saw, you're ready to cut through just
+    about anything. When it's time to go offline and off the
+    beaten path, you'll want the Huntsman in your pocket.
+  sku: SAK
+  image: http://budgetsurvivalgear.com/img/products/swiss-army-knife.jpg
+  url: /shop/knives-and-tools/swiss-army-knife
   category: Knives and tools
   categoryurl: /shop/knives-and-tools
 
 - name: First aid kit
   price: 19.99
   slug: first-aid-kit
+  description: >
+    Compact, durable and water resistant,
+    this special edition ‘pink’ first aid
+    kit with roll-out compartments is filled
+    with practical first aid supplies and
+    instructions. An essential item for the
+    home, travel or for outdoor activities,
+    it is compact enough to fit into a bag
+    or backpack making it the perfect gift
+    for mums on the go.
   sku: FA
   image: http://budgetsurvivalgear.com/img/products/first-aid-kit.jpg
   url: /shop/first-aid/first-aid-kit
@@ -60,9 +77,17 @@
   categoryurl: /shop/clothing-and-gear
 
 - name: Tent
-  price: 39.99
+  price: 79.99
   slug: tent
-  sku: SI
+  description: >
+    Outwell's usual attention to detail and superb build
+    quality help to make it a home away from home - and
+    you can make it even more homely by adding the Palm
+    Coast 600 footprint for extra durability and insulation,
+    the Palm Coast 600 carpet for underfoot comfort and warmth,
+    and almost double your sheltered space using the Palm Coast
+    600 Front Extension.
+  sku: T
   image: http://budgetsurvivalgear.com/img/products/tent.jpg
   url: /shop/shelter/tent/
   category: Shelter
