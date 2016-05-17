@@ -1,0 +1,23 @@
+- name: Firemaking
+  url: /shop/firemaking
+  css: firemaking
+
+- name: Food and preparation
+  url: /shop/food-and-preparation/
+  css: food-and-preparation
+
+- name: Knives and tools
+  url: /shop/knives-and-tools/
+  css: knives-and-tools
+
+- name: First aid
+  url: /shop/first-aid/
+  css: first-aid
+
+- name: Clothing and gear
+  url: /shop/clothing-and-gear/
+  css: clothing-and-gear
+
+- name: Shelter
+  url: /shop/shelter/
+  css: shelter

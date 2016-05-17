@@ -24,7 +24,10 @@ permalink: /shop/food-and-preparation/canned-ravioli/
             <li><a class="product-size" href="#">XL</a></li>
           </ul> -->
 
-          <input type="number" class="product-quantity" min="1" max="20" value="1" />
+          <div class="product-quantity">
+            <span class="quantity-text">Quantity:</span>
+            <input type="number" class="quantity-selector" min="1" max="20" value="1" />
+          </div>
 
           <a href="#" class="snipcart-add-item product-buy" id="button"
           data-item-id="{{ product.sku }}"
@@ -60,7 +63,7 @@ permalink: /shop/food-and-preparation/canned-ravioli/
       $('#button').attr('data-item-custom1-value', t)
     });
 
-    $('.product-quantity').change(function() {
+    $('.quantity-selector').change(function() {
       $('#button').attr('data-item-quantity', $(this).val());
     });
 

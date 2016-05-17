@@ -3,51 +3,18 @@ layout: shop
 title: Shop
 permalink: /shop/
 ---
-<section class="shop">
+<section class="shop shop-landing">
 
-  {% for product in site.data.products %}
+  {% for category in site.data.categories %}
 
-    <a href="{{ product.url }}" class="shop-item">
-
-      <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
-
-      <div class="product-information">
-        <h3>{{ product.name }}</h3>
-        <h5>${{ product.price }}</h5>
+    <a href="{{ category.url }}" class="category-banner">
+      <div class="category-information">
+        <h2>{{ category.name }}</h2>
       </div>
-
-      <!-- <button class="snipcart-add-item"
-        data-item-name="{{product.name}}"
-        data-item-id="{{product.sku}}"
-        data-item-image="{{product.image}}"
-        data-item-url="{{product.url}}"
-        data-item-price="{{product.price}}">
-        Add to cart
-      </button> -->
+      <span class="banner-background {{ category.css }}"></span>
 
     </a>
 
   {% endfor %}
 
 </section>
-
-<script>
-  function changeDimensions() {
-    $(".thumbnail").each(function(){
-      var imgwidth = $(this).outerWidth();
-      var imgheight = $(this).outerHeight();
-      $(this).next('.product-information').css('width', imgwidth + 'px');
-      $(this).next('.product-information').css('height', imgheight + 'px');
-      // console.log(imgwidth + 'px')
-      // console.log(imgheight + 'px')
-    });
-  };
-
-  $(window).load(function() {
-    changeDimensions();
-  });
-
-  $(window).resize(function() {
-    changeDimensions();
-  });
-</script>

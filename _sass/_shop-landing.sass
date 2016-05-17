@@ -1,0 +1,46 @@
+.shop-landing
+  display: flex
+
+  .category-banner
+    width: 50vw
+    height: 30vw
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+
+    .category-information
+      z-index: 1
+      h2
+        color: $title-color
+
+    .banner-background
+      width: 100%
+      height: 100%
+      left: 0
+      position: absolute
+      -webkit-filter: brightness(40%)
+      transition: all 0.2s ease-in
+
+    &:hover
+      .banner-background
+        -webkit-filter: brightness(100%)
+        transition: all 0.2s ease-in
+
+    .firemaking
+      background-image: url(../img/categories/firemaking.jpg)
+
+    .food-and-preparation
+      background-image: url(../img/categories/food.jpg)
+
+    .knives-and-tools
+      background-image: url(../img/categories/knives-and-tools.jpg)
+
+    .first-aid
+      background-image: url(../img/categories/first-aid.jpg)
+
+    .clothing-and-gear
+      background-image: url(../img/categories/clothing-and-gear.jpg)
+
+    .shelter
+      background-image: url(../img/categories/shelter.jpg)
