@@ -8,19 +8,25 @@
   categoryurl: /shop/firemaking
 
 - name: Lighter
-  price: 29.99
+  price: 3.99
   slug: lighter
   sku: L
-  image: http://d.gr-assets.com/books/1333576876l/10127019.jpg
+  image: http://budgetsurvivalgear.com/img/products/lighter.jpg
   url: /shop/firemaking/lighter
   category: Firemaking
   categoryurl: /shop/firemaking
 
 - name: Canned ravioli
-  price: 20.99
+  price: 0.99
   slug: canned-ravioli
+  description: >
+    This Chef Boyardee Beef Ravioli, in Tomato & Meat Sauce provides
+    a convenient, tasty meal. Chef Boyardee Ravioli features
+    raviolis that are stuffed and cooked in tomato and meat sauce.
+    Preparation for this beef ravioli in tomato and meat sauce is
+    easy - simply heat and serve.
   sku: CR
-  image: http://d.gr-assets.com/books/1422538855l/23158207.jpg
+  image: http://budgetsurvivalgear.com/img/products/canned-ravioli.jpg
   url: /shop/food-and-preparation/canned-ravioli
   category: Food and preparation
   categoryurl: /shop/food-and-preparation
