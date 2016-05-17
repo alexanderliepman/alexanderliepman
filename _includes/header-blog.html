@@ -7,10 +7,6 @@
 
   <div class="menu-top">
 
-    <!-- <span class="menu-item">
-      <a class="menu-link" href="{{site.url}}">Home</a>
-    </span> -->
-
     <span class="menu-item">
       <a class="menu-link" href="{{site.url}}/shop/">Shop</a>
     </span>
@@ -30,10 +26,6 @@
     <label class="menu-button" for="sidebartoggler">Menu</label>
     <div class="menu-dropdown blog">
 
-      <!-- <span class="menu-item">
-        <a class="menu-link" href="{{site.url}}">Home</a>
-      </span> -->
-
       <span class="menu-item">
         <a class="menu-link" href="{{site.url}}/shop/">Shop</a>
       </span>
@@ -51,12 +43,13 @@
 
   <div class="cart-header">
 
-    <div class="snipcart-summary">
+    <div class="snipcart-summary big-summary">
         <span class="snipcart-total-items"></span> items,
         <span class="snipcart-total-price"></span>
     </div>
 
-    <a href="#" class="snipcart-checkout">
+    <a href="#" class="snipcart-checkout snipcart-summary mobile-summary">
+      <span class="snipcart-total-items mobile-total-items"></span>
       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
     </a>
 

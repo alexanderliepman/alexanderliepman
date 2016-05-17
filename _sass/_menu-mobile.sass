@@ -42,7 +42,7 @@
 
     .menu-mobile
       display: block
-      margin: 0 1rem
+      margin: 0 0 0 6rem
       padding: 0.25rem
       border: 0.5px solid
       border-radius: 5px
@@ -77,13 +77,22 @@
 
     .cart-header
 
-      .snipcart-summary
+      .big-summary
         display: none
+
+      .mobile-summary
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        .mobile-total-items
+          display: flex
 
       .snipcart-checkout
         padding: 0
 
         .fa-shopping-cart
+          font-size: ms(1) * 1.2
 
 
 
