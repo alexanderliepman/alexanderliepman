@@ -1,15 +1,33 @@
-- name: Flint and steel
+- name: Firestarter
   price: 13.99
-  slug: flint-and-steel
-  sku: FAS
+  slug: firestarter
+  description: >
+    Gerber Bear small and compact fire starter offers years of use.
+    Watertight construction keeps tinder safe and dry, so when
+    you need it, you can trust it. This tool has been rigorously
+    tested to determine that it will provide a spark for 8000+
+    strikes. Take the easily-carried Bear Grylls Fire Starter
+    with you no matter where you plan to end up for non-stop
+    survival insurance. Lanyard to keep product secure and together.
+    Emergency whistle integrated into lanyard cord. Waterproof
+    storage compartment for tinder. Land to air rescue instructions
+    and SOS. Pocket guide contains Bear’s survival essentials.
+  sku: F
   image: http://budgetsurvivalgear.com/img/products/flint-and-steel.jpg
-  url: /shop/firemaking/flint-and-steel
+  url: /shop/firemaking/firestarter
   category: Firemaking
   categoryurl: /shop/firemaking
 
 - name: Lighter
-  price: 3.99
+  price: 7.99
   slug: lighter
+  description: >
+    It glows, it floats, and it lights when it's wet!
+    Simply put, it's the ultimate lighter! You'll surely want
+    one in your survival bag... because you never know when it
+    could rain, or when you could drop your lighter in a puddle.
+    With the UST Glow-in-the-dark Floating Lighter you don't have
+    to worry.
   sku: L
   image: http://budgetsurvivalgear.com/img/products/lighter.jpg
   url: /shop/firemaking/lighter
@@ -17,7 +35,7 @@
   categoryurl: /shop/firemaking
 
 - name: Canned ravioli
-  price: 0.99
+  price: 0.49
   slug: canned-ravioli
   description: >
     This Chef Boyardee Beef Ravioli, in Tomato & Meat Sauce provides

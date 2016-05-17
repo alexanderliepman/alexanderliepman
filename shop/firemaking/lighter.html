@@ -1,12 +1,12 @@
 ---
 layout: product
-title: Canned ravioli
-permalink: /shop/food-and-preparation/canned-ravioli/
+title: Lighter
+permalink: /shop/firemaking/lighter/
 ---
 <section class="product-page">
 
   {% for product in site.data.products %}
-    {% if product.name == "Canned ravioli" %}
+    {% if product.name == "Lighter" %}
 
       <img src="{{ product.image }}" alt="{{ product.name }}" class="product-image" />
 
@@ -24,7 +24,18 @@ permalink: /shop/food-and-preparation/canned-ravioli/
             <li><a class="product-size" href="#">XL</a></li>
           </ul> -->
 
-          <input type="number" class="product-quantity" min="1" max="20" value="1" />
+          <!-- <select id="product-quantity" />
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select> -->
 
           <a href="#" class="snipcart-add-item product-buy" id="button"
           data-item-id="{{ product.sku }}"
@@ -32,7 +43,9 @@ permalink: /shop/food-and-preparation/canned-ravioli/
           data-item-name="{{ product.name }}"
           data-item-image="{{ product.image }}"
           data-item-price="{{ product.price }}"
-          data-item-quantity="1">
+          data-item-quantity="1"
+          data-item-custom1-name="Size"
+          data-item-custom1-options="S|M|L|XL">
             Add to cart
           </a>
 
@@ -60,8 +73,8 @@ permalink: /shop/food-and-preparation/canned-ravioli/
       $('#button').attr('data-item-custom1-value', t)
     });
 
-    $('.product-quantity').change(function() {
-      $('#button').attr('data-item-quantity', $(this).val());
+    $('#product-quantity').change(function() {
+      $('#button').data('item-quantity', $(this).val());
     });
 
   });
