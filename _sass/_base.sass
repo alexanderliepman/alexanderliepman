@@ -36,9 +36,35 @@ h5
 
 a
   text-decoration: none
+  transition: all 0.1s ease-in
+
   &:hover
-    color: $text-color
-    transition: all 0.1s ease-in-out
+    color: $brand-color
+    transition: all 0.1s ease-in
+
+.link-hover
+  position: relative
+
+  &::after
+    position: absolute
+    top: 100%
+    left: 0
+    width: 100%
+    height: 1px
+    background: $title-color
+    content: ''
+    transition: all 0.3s ease-in
+    transform: translate(0, -5px)
+    opacity: 0
+
+  &:hover
+    color: $brand-color
+
+    &::after
+      height: 3px
+      transform: translate(0, 0px)
+      opacity: 1
+      background: $brand-color
 
 
 

@@ -1,21 +1,29 @@
 .post
-  margin-top: 110px
 
   .post-header
+    padding-top: 110px
     width: 100vw
-    height: 35vh
+    height: calc(35vh + 110px)
     background-color: $grey-color
     display: flex
+    flex-direction: column
     justify-content: center
     align-items: center
 
     .post-title
       text-align: center
       color: $title-color
+      margin: 1rem 0 0 0
 
     .post-meta
       font:
         size: ms(1)
       color: $title-color
+      margin: 2rem 0 4rem 0
 
   .post-content
+    max-width: 910px
+    margin: auto
+    margin-top: 5rem
+    margin-bottom: 5rem
+    line-height: 1.6

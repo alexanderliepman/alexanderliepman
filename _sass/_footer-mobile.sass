@@ -1,0 +1,51 @@
+@include media-query($on-palm)
+  .footer
+
+    .footer-content
+      width: 100%
+
+      .footer-social.mobile
+        display: block
+        margin: auto
+        margin-bottom: 2rem
+
+      .footer-navigation
+        flex-wrap: wrap
+        justify-content: flex-start
+
+        .footer-label
+
+          h4
+            font-size: ms(0) * 0.85
+
+          .footer-links
+
+            h5
+              font-size: ms(0) * 0.7
+
+      .footer-bottom
+        margin: 0 2rem
+
+        .copyright
+          text-align: center
+
+          h5
+            font-size: ms(0) * 0.7
+
+        .footer-social.desktop
+          display: none
+
+  .footer-social
+
+    a
+
+      .facebook-button
+
+      .twitter-button
+
+      &:hover
+
+        .facebook-button, .twitter-button
+
+
+  .footer-link
