@@ -1,0 +1,71 @@
+$container: "0.5s"
+$layout: "0.25s"
+$layout-longer: "0.75s"
+
+.snipcart-overwrite
+
+  .snip-layout
+    display: block !important
+    opacity: 0
+    transform: translate(0, -100%)
+    transition: opacity $layout ease-in-out 1s,  transform 0s ease-in-out $layout-longer
+    color: $grey-color
+
+    .snip-layout__close
+      color: $text-color
+
+    .snip-layout__main-container
+      transform: translate(0, -130%)
+      transition: all $container ease-in-out
+      background-color: $background-color !important
+
+      #snipcart-main-content
+
+        .snip-header
+          background-color: $background-color
+          color: $text-color
+
+          .snip-header__title
+            font-family: $title-font-family
+            font-size: ms(1)
+
+          .snip-header__total
+            background-color: $background-color
+            border: none
+            border-radius: 0
+
+        #snipcart-sub-content
+
+          .snipcart-step
+
+            #snipcart-items
+              font-family: $base-font-family
+
+            .snip-actions
+
+              .snip-btn--highlight
+                background-color: $text-color
+                color: $title-color
+
+                &:hover
+                  background-color: $brand-color
+
+        .snip-footer
+          background-color: $background-color
+
+.snipcart-overwrite.snip-open
+
+  .snip-layout
+    opacity: 1
+    transform: translate(0, 0)
+    transition: opacity $container ease-in-out, transform 0s ease-in-out
+
+
+    .snip-layout__main-container
+      transform: translate(0, 0)
+      transition: all $layout ease-in-out
+
+
+.snip-quantity-trigger__btn:hover
+  background-color: $brand-color !important
+  color: $title-color

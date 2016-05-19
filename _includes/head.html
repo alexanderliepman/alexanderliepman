@@ -6,7 +6,6 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
@@ -19,5 +18,6 @@
   <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NmZkNzc3NTMtYmE1ZS00MTU0LWJmM2YtYTAxMDdhNWZlNjlhNjM1OTA2NzQ0ODU1MDM3Njc5" data-autopop="false"></script>
   <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
 
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <script src="http://budgetsurvivalgear.com/js/arcticscroll.js"></script>
 </head>
