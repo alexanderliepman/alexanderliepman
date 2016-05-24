@@ -1,9 +1,12 @@
+$footer-font: ms(0) * 0.7
+$footer-font-large: ms(0) * 0.8
+
 .footer
   width: 100vw
   background-color: $grey-color-dark
 
   .footer-content
-    max-width: 710px
+    max-width: 620px
     width: 80%
     margin: auto
     padding: 2rem 0
@@ -31,7 +34,7 @@
           text-transform: uppercase
           font:
             family: $base-font-family
-            size: ms(0) * 0.95
+            size: $footer-font-large
             weight: 400
           letter-spacing: 2px
 
@@ -42,7 +45,7 @@
           h5
             color: $title-color
             margin: 0
-            font-size: ms(0) * 0.85
+            font-size: $footer-font
             margin: 0.5rem 0
 
     .footer-bottom
@@ -50,7 +53,7 @@
       justify-content: space-between
       align-items: center
       flex-direction: row
-      max-width: 700px
+      max-width: 620px
 
       .copyright
         display: flex
@@ -59,7 +62,7 @@
         h5
           color: $title-color
           margin: 0
-          font-size: ms(0) * 0.85
+          font-size: $footer-font
           margin: 0.5rem 0
 
       .footer-social.desktop

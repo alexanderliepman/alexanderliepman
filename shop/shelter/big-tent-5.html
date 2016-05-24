@@ -1,0 +1,79 @@
+---
+layout: product
+title: Big tent 5
+permalink: /shop/shelter/big-tent-5/
+---
+<section class="product-page">
+
+  {% for product in site.data.products %}
+    {% if product.name == "Big tent 5" %}
+
+      <img src="{{ product.image }}" alt="{{ product.name }}" class="product-image" />
+
+      <div class="product-information">
+        <div class="product-name-and-price">
+          <h2 class="product-name">{{ product.name }}</h2>
+          <h4 class="product-price">${{ product.price }}</h2>
+        </div>
+
+        <div class="product-purchase">
+          <!-- <ul class="size-selection">
+            <li><a class="product-size" href="#">S</a></li>
+            <li><a class="product-size" href="#">M</a></li>
+            <li><a class="product-size" href="#">L</a></li>
+            <li><a class="product-size" href="#">XL</a></li>
+          </ul> -->
+
+          <!-- <select id="product-quantity" />
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select> -->
+
+          <a href="#" class="snipcart-add-item product-buy" id="button"
+          data-item-id="{{ product.sku }}"
+          data-item-url="{{ product.url }}"
+          data-item-name="{{ product.name }}"
+          data-item-image="{{ product.image }}"
+          data-item-price="{{ product.price }}"
+          data-item-quantity="1">
+            Add to cart
+          </a>
+
+        </div>
+
+        <p class="product-description">{{ product.description }}</p>
+
+      </div>
+
+
+
+    {% endif %}
+  {% endfor %}
+
+</section>
+
+<script>
+  jQuery(function(){
+
+    $('.product-size').click(function(e) {
+      e.preventDefault();
+      var t = $(this).text();
+      $('.product-size').removeClass('active'),
+      $(this).addClass('active'),
+      $('#button').attr('data-item-custom1-value', t)
+    });
+
+    $('#product-quantity').change(function() {
+      $('#button').data('item-quantity', $(this).val());
+    });
+
+  });
+</script>
