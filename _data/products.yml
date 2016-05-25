@@ -111,15 +111,15 @@
     the Palm Coast 600 carpet for underfoot comfort and warmth,
     and almost double your sheltered space using the Palm Coast
     600 Front Extension.
-  sku: T5
+  sku: T
   image: http://budgetsurvivalgear.com/img/products/tent.jpg
   url: /shop/shelter/tent/
   category: Shelter
   categoryurl: /shop/shelter
 
-- name: Big tent
+- name: Big tent 5
   price: 79.99
-  slug: big-tent
+  slug: big-tent-5
   description: >
     Outwell's usual attention to detail and superb build
     quality help to make it a home away from home - and
@@ -128,15 +128,15 @@
     the Palm Coast 600 carpet for underfoot comfort and warmth,
     and almost double your sheltered space using the Palm Coast
     600 Front Extension.
-  sku: T4
+  sku: BT5
   image: http://budgetsurvivalgear.com/img/products/tent.jpg
-  url: /shop/shelter/big-tent/
+  url: /shop/shelter/big-tent-5/
   category: Shelter
   categoryurl: /shop/shelter
 
-- name: Big tent
+- name: Big tent 4
   price: 79.99
-  slug: big-tent
+  slug: big-tent-4
   description: >
     Outwell's usual attention to detail and superb build
     quality help to make it a home away from home - and
@@ -145,9 +145,26 @@
     the Palm Coast 600 carpet for underfoot comfort and warmth,
     and almost double your sheltered space using the Palm Coast
     600 Front Extension.
-  sku: T3
+  sku: BT4
   image: http://budgetsurvivalgear.com/img/products/tent.jpg
-  url: /shop/shelter/big-tent/
+  url: /shop/shelter/big-tent-4/
+  category: Shelter
+  categoryurl: /shop/shelter
+
+- name: Big tent 3
+  price: 79.99
+  slug: big-tent-3
+  description: >
+    Outwell's usual attention to detail and superb build
+    quality help to make it a home away from home - and
+    you can make it even more homely by adding the Palm
+    Coast 600 footprint for extra durability and insulation,
+    the Palm Coast 600 carpet for underfoot comfort and warmth,
+    and almost double your sheltered space using the Palm Coast
+    600 Front Extension.
+  sku: BT3
+  image: http://budgetsurvivalgear.com/img/products/tent.jpg
+  url: /shop/shelter/big-tent-3/
   category: Shelter
   categoryurl: /shop/shelter
 
@@ -162,7 +179,7 @@
     the Palm Coast 600 carpet for underfoot comfort and warmth,
     and almost double your sheltered space using the Palm Coast
     600 Front Extension.
-  sku: T2
+  sku: BT2
   image: http://budgetsurvivalgear.com/img/products/tent.jpg
   url: /shop/shelter/big-tent-2/
   category: Shelter
@@ -179,8 +196,25 @@
     the Palm Coast 600 carpet for underfoot comfort and warmth,
     and almost double your sheltered space using the Palm Coast
     600 Front Extension.
-  sku: T1
+  sku: BT1
   image: http://budgetsurvivalgear.com/img/products/tent.jpg
   url: /shop/shelter/big-tent-1/
+  category: Shelter
+  categoryurl: /shop/shelter
+
+- name: Big tent
+  price: 79.99
+  slug: big-tent
+  description: >
+    Outwell's usual attention to detail and superb build
+    quality help to make it a home away from home - and
+    you can make it even more homely by adding the Palm
+    Coast 600 footprint for extra durability and insulation,
+    the Palm Coast 600 carpet for underfoot comfort and warmth,
+    and almost double your sheltered space using the Palm Coast
+    600 Front Extension.
+  sku: BT
+  image: http://budgetsurvivalgear.com/img/products/tent.jpg
+  url: /shop/shelter/big-tent/
   category: Shelter
   categoryurl: /shop/shelter

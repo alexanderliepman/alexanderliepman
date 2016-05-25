@@ -1,15 +1,18 @@
 ---
 layout: product
+
 # Product title defined in products.yml
-title: Big tent
+title: Product title
+
 # Slug defined in products.yml
-permalink: /shop/shelter/big-tent/
+permalink: Product slug
 ---
 <section class="product-page">
 
   {% for product in site.data.products %}
-    {% if product.name == "Big tent" %}
-      <!-- Same product title above as defined in products.yml -->
+
+    {% if product.name == "Product title" %}
+    <!-- Same product title above as defined in products.yml -->
 
       <img src="{{ product.image }}" alt="{{ product.name }}" class="product-image" />
 
