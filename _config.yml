@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://192.168.1.65:4000"
 url: "http://budgetsurvivalgear.com"
 
-permalink: /:title/
+permalink: Affordable Survival, Prepping, and Camping Basics » Straight From The Source
 
 # Build settings
 markdown: kramdown
